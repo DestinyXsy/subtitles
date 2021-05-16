@@ -1,5 +1,5 @@
 <template>
-  <div class="index">
+  <div class="Index">
     <van-row class="swipe_text">
       <van-col span="8">
         <div class="text">

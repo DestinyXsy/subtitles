@@ -1,5 +1,5 @@
 <template>
-  <div class="register">
+  <div class="rejester">
     <van-form @submit="onSubmit">
       <van-field
         v-model="username"
@@ -52,7 +52,7 @@
 import { Form, Button, Field } from "vant";
 
 export default {
-  name: "register",
+  name: "rejester",
   components: {
     [Form.name]: Form,
     [Button.name]: Button,

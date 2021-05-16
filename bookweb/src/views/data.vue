@@ -1,15 +1,15 @@
 <template>
   <div>
-    <register :atype="typename[0]" :show="show" />
+    <rejester :atype="typename[0]" :show="show" />
   </div>
 </template>
 
 <script>
-import register from "@/components/register.vue";
+import rejester from "@/components/rejester.vue";
 
 export default {
   name: "data",
-  components: { register },
+  components: { rejester },
   data() {
     return {
       typename: ["登录", "注册"],
